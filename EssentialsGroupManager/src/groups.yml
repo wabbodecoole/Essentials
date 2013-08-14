@@ -8,7 +8,7 @@
 #
 # Local group inheritances define your promotion tree when using 'manpromote/mandemote'
 
-groups:
+groups:Theros
   Default:
     default: true
     permissions:
@@ -18,6 +18,9 @@ groups:
     - g:bukkit_default
     - g:essentials_default
     - g:towny_default
+    - essentials.warp
+    - essentials.sethome.multiple.default
+    - essentials.spawn
     info:
       prefix: '&e'
       build: false
